@@ -1,0 +1,22 @@
+/* static/style.css */
+/* Custom styles beyond Tailwind */
+
+select[multiple] {
+    height: auto;
+    min-height: 120px;
+}
+
+.recommendation-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
